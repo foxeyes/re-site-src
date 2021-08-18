@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prepare": "git submodule update --init --recursive --remote && cd ./re4ma && npm install && cd ..",
+    "dev": "node ./re4ma/dev.js",
+    "project-data": "node ./re4ma/project-data.js",
+    "build": "node ./re4ma/builder.js",
+    "deploy": "firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uploadcare/experimental-blog.git"
+  },
+  "keywords": [
+    "uploadcare",
+    "re4ma",
+    "symbiote"
+  ],
+  "author": "Uploadcare inc.",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/uploadcare/experimental-blog/issues"
+  },
+  "homepage": "https://github.com/uploadcare/experimental-blog#readme"
+}
