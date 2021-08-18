@@ -2,6 +2,8 @@
 
 ### Installation:
 
+`git clone git@github.com:uploadcare/experimental-blog.git ./`
+
 `npm run prepare`
 
 ### Workflow:
