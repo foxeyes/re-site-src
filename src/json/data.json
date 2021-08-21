@@ -4,7 +4,7 @@
     "date": "1 feb 2021",
     "caption": "Uploading files",
     "anounce": "Bla, bla, bla...",
-    "img": "./img/future.png",
+    "img": "./img/for.png",
     "tags": "uploader, js, html, files"
   },
   {
@@ -12,7 +12,7 @@
     "date": "10 jan 2021",
     "caption": "Lazy loading",
     "anounce": "Bla, bla, bla...",
-    "img": "./img/future.png",
+    "img": "./img/operations.png",
     "tags": "lazy, js, html, files"
   }
 ]
