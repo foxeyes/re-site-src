@@ -1,0 +1,42 @@
+{
+  "files_map": {},
+  "serve": {
+    "port": 5000,
+    "src_cfg": [
+      {
+        "type": "html",
+        "src_path": "/src",
+        "out_path": "/dist",
+        "template": {
+          "path": "./src/htm/base-template.htm",
+          "set_values": {
+            "TITLE": "UcBlog",
+            "DESCRIPTION": "Uploadcare blog",
+            "HEADER_TXT": "🟡 Uploadcare / devblog",
+            "FOOTER_TXT": "&copy; 2021",
+            "BASE_PATH": "./",
+            "CSS_PATH": "./css/styles.css"
+          }
+        },
+        "minify": false
+      },
+      {
+        "type": "md",
+        "src_path": "/src/articles",
+        "out_path": "/dist/articles",
+        "template": {
+          "path": "./src/htm/base-template.htm",
+          "set_values": {
+            "TITLE": "UcBlog",
+            "DESCRIPTION": "Uploadcare blog",
+            "HEADER_TXT": "🟡 Uploadcare / devblog",
+            "FOOTER_TXT": "&copy; 2021",
+            "BASE_PATH": "../",
+            "CSS_PATH": "./css/styles.css"
+          }
+        },
+        "minify": false
+      }
+    ]
+  }
+}

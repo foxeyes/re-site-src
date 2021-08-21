@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🟡 {{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <base href="{{BASE_PATH}}">
+  <link rel="stylesheet" href="{{CSS_PATH}}">
+  <script src="../re4ma/render/render.js" type="module" re-move></script>
+</head>
+<body>
+<re-htm 
+  src="./htm/page-layout.htm"
+  --header-txt="{{HEADER_TXT}}"
+  --footer-txt="{{FOOTER_TXT}}">{{CONTENT}}</re-htm>
+</body>
+</html>

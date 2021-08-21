@@ -4,12 +4,26 @@
 
 `git clone git@github.com:uploadcare/experimental-blog.git ./`
 
-`npm run prepare`
+Then:
+
+`npm run prepare` (also for update)
 
 ### Workflow:
 
 Start local server:
+
 `npm run dev`
 
 Build site:
+
 `npm run build`
+
+### Project setup:
+
+`./project.json`
+
+### Dependency docs:
+
+re4ma: https://github.com/uploadcare/re4ma#readme
+
+symbiote: https://github.com/uploadcare/symbiote.js/tree/v2#readme
