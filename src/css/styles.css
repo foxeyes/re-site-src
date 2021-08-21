@@ -41,6 +41,7 @@ main {
 
 code {
   display: inline-block;
+  white-space: pre-wrap;
   padding: var(--gap-max);
   color: var(--clr-2);
   background-color: var(--clr-1);
@@ -49,4 +50,10 @@ code {
 
 code .hl {
   color: var(--clr-hl);
+}
+
+.artcl-card {
+  display: inline-block;
+  padding: var(--gap-max);
+  background-color: #fff;
 }

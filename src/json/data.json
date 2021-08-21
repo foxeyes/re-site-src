@@ -1,0 +1,18 @@
+[
+  {
+    "author": "John Snow",
+    "date": "1 feb 2021",
+    "caption": "Uploading files",
+    "anounce": "Bla, bla, bla...",
+    "img": "./img/future.png",
+    "tags": "uploader, js, html, files"
+  },
+  {
+    "author": "Luke Skywalker",
+    "date": "10 jan 2021",
+    "caption": "Lazy loading",
+    "anounce": "Bla, bla, bla...",
+    "img": "./img/future.png",
+    "tags": "lazy, js, html, files"
+  }
+]
