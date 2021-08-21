@@ -21,6 +21,23 @@
         "minify": false
       },
       {
+        "type": "html",
+        "src_path": "/src/sections",
+        "out_path": "/dist/sections",
+        "template": {
+          "path": "./src/htm/base-template.htm",
+          "set_values": {
+            "TITLE": "UcBlog",
+            "DESCRIPTION": "Uploadcare blog",
+            "HEADER_TXT": "🟡 Uploadcare / devblog / section",
+            "FOOTER_TXT": "&copy; 2021",
+            "BASE_PATH": "../",
+            "CSS_PATH": "./css/styles-alt.css"
+          }
+        },
+        "minify": false
+      },
+      {
         "type": "md",
         "src_path": "/src/articles",
         "out_path": "/dist/articles",

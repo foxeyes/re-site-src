@@ -6,7 +6,7 @@
 
 Then:
 
-`npm run prepare` (also for update)
+`npm run prepare`
 
 ### Workflow:
 
