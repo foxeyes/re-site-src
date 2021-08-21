@@ -57,3 +57,7 @@ code .hl {
   padding: var(--gap-max);
   background-color: #fff;
 }
+.artcl-card > .meta {
+  font-size: 0.8em;
+  margin-top: var(--gap-max);
+}
