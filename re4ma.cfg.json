@@ -1,9 +1,14 @@
 {
-  "port": 3000,
+  "port": 5000,
   "renderItems": [
     {
       "source": "src/",
       "output": "dist/",
+      "minify": false
+    },
+    {
+      "source": "src/sections/",
+      "output": "dist/sections/",
       "minify": false
     }
   ]

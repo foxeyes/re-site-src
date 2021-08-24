@@ -6,3 +6,7 @@
 	path = re4ma
 	url = git@github.com:uploadcare/re4ma.git
 	branch = main
+[submodule "dist"]
+	path = dist
+	url = git@github.com:foxeyes/re-site.git
+	branch = main

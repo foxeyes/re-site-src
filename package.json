@@ -8,8 +8,10 @@
     "prepare": "git submodule update --init --recursive --remote && cd ./re4ma && npm install && cd ..",
     "dev": "node ./re4ma/dev.js",
     "project-data": "node ./re4ma/project-data.js",
-    "build": "node ./re4ma/builder.js",
-    "deploy": "firebase deploy"
+    "copy-folders": "cp -R src/css dist/ && cp -R src/img dist/",
+    "build": "node ./re4ma/builder.js && npm run copy-folders",
+    "deploy": "cd dist && git add -A && git commit -m 'deploy' && git push && cd ..",
+    "pub": "npm run build && npm run deploy"
   },
   "repository": {
     "type": "git",
