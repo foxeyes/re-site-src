@@ -1,0 +1,26 @@
+{
+  "Home": {
+    "href": "./"
+  },
+  "Render": {
+    "href": "./sections/render.html"
+  },
+  "Serve": {
+    "href": "./sections/serve.html"
+  },
+  "Build": {
+    "href": "./sections/build.html"
+  },
+  "Collect data": {
+    "href": "./sections/data.html"
+  },
+  "Deploy": {
+    "href": "./sections/deploy.html"
+  },
+  "Dynamics": {
+    "href": "./sections/dynamics.html"
+  },
+  "Links": {
+    "href": "./sections/links.html"
+  }
+}

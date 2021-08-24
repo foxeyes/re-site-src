@@ -10,9 +10,9 @@
         "template": {
           "path": "./src/htm/base-template.htm",
           "set_values": {
-            "TITLE": "UcBlog",
-            "DESCRIPTION": "Uploadcare blog",
-            "HEADER_TXT": "🟡 Uploadcare / devblog",
+            "TITLE": "re4ma",
+            "DESCRIPTION": "re4ma",
+            "HEADER_TXT": "re4ma",
             "FOOTER_TXT": "&copy; 2021",
             "BASE_PATH": "./",
             "CSS_PATH": "./css/styles.css"
@@ -27,32 +27,14 @@
         "template": {
           "path": "./src/htm/base-template.htm",
           "set_values": {
-            "TITLE": "UcBlog",
-            "DESCRIPTION": "Uploadcare blog",
-            "HEADER_TXT": "🟡 Uploadcare / devblog / section",
-            "FOOTER_TXT": "&copy; 2021",
-            "BASE_PATH": "../",
-            "CSS_PATH": "./css/styles-alt.css"
-          }
-        },
-        "minify": false
-      },
-      {
-        "type": "md",
-        "src_path": "/src/articles",
-        "out_path": "/dist/articles",
-        "template": {
-          "path": "./src/htm/base-template.htm",
-          "set_values": {
-            "TITLE": "UcBlog",
-            "DESCRIPTION": "Uploadcare blog",
-            "HEADER_TXT": "🟡 Uploadcare / devblog",
+            "TITLE": "re4ma",
+            "DESCRIPTION": "re4ma",
+            "HEADER_TXT": "re4ma",
             "FOOTER_TXT": "&copy; 2021",
             "BASE_PATH": "../",
             "CSS_PATH": "./css/styles.css"
           }
-        },
-        "minify": false
+        }
       }
     ]
   }
