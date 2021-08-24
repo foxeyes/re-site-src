@@ -1,4 +1,4 @@
-## Uploadcare future blog
+## re4ma site
 
 ### Installation:
 
@@ -8,15 +8,15 @@ Then:
 
 `npm run prepare`
 
-### Workflow:
+### Develop:
 
 Start local server:
 
 `npm run dev`
 
-Build site:
+Publish:
 
-`npm run build`
+`npm run pub`
 
 ### Project setup:
 
