@@ -3,10 +3,12 @@
 :root {
   --rgb-1: 20, 20, 20;
   --rgb-2: 200, 200, 200;
-  --rgb-3: 200, 60, 0;
+  --rgb-3: 200, 160, 10;
+  --rgb-4: 255, 255, 255;
 
   --clr-1: rgb(var(--rgb-1));
   --clr-2: rgb(var(--rgb-2));
+  --clr-4: rgb(var(--rgb-4));
   --clr-hl: rgb(var(--rgb-3));
 
   --gap-min: 2px;
@@ -40,11 +42,16 @@ header, footer, main {
 }
 
 main {
-  max-width: 960px;
+  display: flex;
+  justify-content: center;
 }
 
 code {
-  display: inline-block;
+  padding: var(--gap-min);
+}
+
+code.language-html, code.language-json {
+  display: block;
   white-space: pre-wrap;
   padding: var(--gap-max);
   color: var(--clr-2);
@@ -54,6 +61,14 @@ code {
 
 code .hl {
   color: var(--clr-hl);
+}
+
+col-css {
+  display: block;
+  background-color: var(--clr-4);
+  padding: var(--gap-max);
+  width: 100%;
+  max-width: 960px;
 }
 
 nav {
@@ -91,3 +106,12 @@ nav {
   font-size: 0.8em;
   margin-top: var(--gap-max);
 }
+
+h3 {
+  display: block;
+  padding-bottom: var(--gap-mid);
+  border-bottom: 1px dashed currentColor;
+  font-weight: bold;
+  margin-top: var(--gap-max);
+}
+
